@@ -9,6 +9,7 @@ import About from "./component/About/About"
 function App() {
   return (
     <div className="App">
+
        <Router>
          <Routes>
            <Route path="/" element ={<Home/>} />
@@ -16,6 +17,7 @@ function App() {
            <Route path="/catagory" element ={<Catagory/>} />
          </Routes>
        </Router>
+
     </div>
   );
 }
