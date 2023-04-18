@@ -4,12 +4,22 @@ import "./Navbar.css";
 
 export default function Navbar(){
     return (
-      <div className="nav">
-          <ul>
-              <li><Link to="/" >Home</Link></li>
-              <li><Link to="/catagory" >Catagoty</Link></li>
-              <li><Link to="/about" >about</Link></li>
-          </ul>
-      </div>
+        <div class="container">
+        <div class="header_section_top">
+           <div class="row">
+              <div class="col-sm-12">
+                 <div class="custom_menu">
+                    <ul>
+                       <li><Link >Best Sellers</Link></li>
+                       <li><Link >Gift Ideas</Link></li>
+                       <li><Link >New Releases</Link></li>
+                       <li><Link >Today's Deals</Link></li>
+                       <li><Link >Customer Service</Link></li>
+                    </ul>
+                 </div>
+              </div>
+           </div>
+        </div>
+     </div>
     );
 }

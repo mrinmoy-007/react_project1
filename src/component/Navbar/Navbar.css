@@ -1,5 +1,22 @@
 .nav {
-color: red;
+
 height: 100px;
 width: 100%;
+background-color: aquamarine;
+}
+.nav ul{
+    margin-top: 20px;
+}
+
+.nav ul li {
+    display: inline;
+    margin: 20px;
+    
+
+}
+.nav ul li a{
+    padding-top: 10px;
+    font-size: 30px;
+    background-color: aqua;
+    text-decoration: none;
 }
