@@ -1,5 +1,6 @@
 
 import {BrowserRouter as Router, Routes,Route} from "react-router-dom";
+import "./App.css";
 
 import Home from "./component/Home/Home";
 import Catagory from "./component/Catagory/Catagory";
@@ -8,7 +9,7 @@ import About from "./component/About/About"
 
 function App() {
   return (
-    <div className="App">
+    <div className="banner_bg_main">
 
        <Router>
          <Routes>
