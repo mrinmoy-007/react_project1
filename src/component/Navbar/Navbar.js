@@ -4,11 +4,11 @@ import "./Navbar.css";
 
 export default function Navbar(){
     return (
-        <div class="container">
-        <div class="header_section_top">
-           <div class="row">
-              <div class="col-sm-12">
-                 <div class="custom_menu">
+        <div className="container">
+        <div className="header_section_top">
+           <div className="row">
+              <div className="col-sm-12">
+                 <div className="custom_menu">
                     <ul>
                        <li><Link >Best Sellers</Link></li>
                        <li><Link >Gift Ideas</Link></li>

@@ -9,7 +9,7 @@ import About from "./component/About/About"
 
 function App() {
   return (
-    <div className="banner_bg_main">
+    
 
        <Router>
          <Routes>
@@ -19,7 +19,7 @@ function App() {
          </Routes>
        </Router>
 
-    </div>
+    
   );
 }
 
