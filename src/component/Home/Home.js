@@ -1,7 +1,7 @@
 
 import Navbar from "../Navbar/Navbar";
 import Logosection  from "../Logosection/Logosection";
-import Header from "../Header/Header";
+// import Header from "../Header/Header";
 
 
 export default function Home(){
@@ -9,7 +9,6 @@ export default function Home(){
         <div className="banner_bg_main">
             <Navbar/>
             <Logosection/>
-            <Header />
             <h1>hello from home</h1>
         </div>
     );
