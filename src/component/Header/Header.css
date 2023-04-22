@@ -1,0 +1,9 @@
+
+.header_section {
+    width: 100%;
+    display: flex;
+}
+
+.containt_main {
+    display: flex;
+}
